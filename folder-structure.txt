@@ -1,0 +1,21 @@
+.
+├── apps/
+│   ├── web/                # Next.js 14 (App Router)
+│   │   ├── app/            # Routes, Layouts, Pages
+│   │   ├── components/     # React components
+│   │   │   └── ui/         # shadcn/ui (generated)
+│   │   ├── lib/            # Supabase client, utils
+│   │   ├── hooks/          # Custom React hooks
+│   │   └── package.json
+│   └── api/                # FastAPI
+│       ├── app/
+│       │   ├── core/       # Config, Auth middleware
+│       │   ├── models/     # SQLAlchemy 2.0 Models
+│       │   ├── schemas/    # Pydantic V2 Schemas
+│       │   ├── routes/     # API Endpoints
+│       │   └── main.py     # Entry point
+│       ├── alembic/        # Migrations
+│       ├── requirements.txt
+│       └── alembic.ini
+├── .env                    # Root environment variables
+└── package.json            # Root workspace config

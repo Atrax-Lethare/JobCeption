@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "@supabase/supabase-js": "latest",
+    "@supabase/auth-helpers-nextjs": "latest",
+    "lucide-react": "latest",
+    "tailwind-merge": "latest",
+    "clsx": "latest",
+    "class-variance-authority": "latest",
+    "motion": "latest",
+    "react-hook-form": "latest",
+    "zod": "latest"
+  }
+}
